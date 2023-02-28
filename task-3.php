@@ -12,7 +12,7 @@
 		$email = $_POST['email'];
 
 		// Create a new instance of Person class and set properties
-		include 'Person.php'; // assuming Person.php is in the same directory
+		include 'Person.php';
 		$person = new Person();
 		$person->setName($name);
 		$person->setEmail($email);
